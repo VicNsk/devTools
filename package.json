@@ -4,7 +4,16 @@
   "name": "dev-tools",
   "version": "2.0.2",
   "description": "gulp tools for weblayout",
-  "author": "Victor A.Babikov <vb@vb-h.ru>",
+  "homepage": "https://github.com/VicNsk/devTools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VicNsk/devTools.git"
+  },
+  "author": {
+    "name": "Victor A.Babikov",
+    "email": "vb@vb-h.ru",
+    "url": "http://vb-h.ru"
+  },
   "main": "gulpfile.js",
   "license": "MIT",
   "browserslist": [
