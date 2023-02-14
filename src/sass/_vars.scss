@@ -1,0 +1,19 @@
+:root {
+  // * main dimensions
+  --min-width: 320; // Минимальная ширина страницы
+  --max-width: 1600; // Ширина полотна (макета)
+  --content-width: 1170; // ширина контента
+  --offset: 15px; // оазмер отступа
+  --container-width: calc(var(--content-width) + (var(--offset) * 2));
+
+  // * fonts
+  --font-family: "Roboto", sans-serif;
+  --font-size: rem(16);
+
+  // * colors
+  --main-color: #413d4b;
+  --ligth-color: #fff;
+  --dark-color: #000;
+  --activ-color: #ff8c00;
+  --inActiv-color: #b8b6bc;
+}

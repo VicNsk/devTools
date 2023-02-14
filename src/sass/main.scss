@@ -1,0 +1,17 @@
+@import "base/mixins"; // SASS миксины
+// * Общие настройки
+@import "fonts"; // подключение шрифтов
+@import "vars"; // общие переменные
+@import "base/setings"; // общие стили
+// * подключение сторнних библиотек
+// //@import "vendor/normalize";
+// ...
+// * Подключение стилей блоков
+// @import "blocks/...";
+// ...
+// //@import "blocks/header";
+// //@import "blocks/footer";
+// ...
+// * Подключение стилей компонентов
+// @import "blocks/components/.."
+// ...

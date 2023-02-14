@@ -1,0 +1,16 @@
+/* stylelint-disable */
+// * Подключение шрифта
+// @include font("Roboto", "RobotoRegular", 400, "normal")
+
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    src:
+      url("../assets/fonts/#{$file_name}.woff2") format("woff2"),
+      url("../assets/fonts/#{$file_name}.woff") format("woff"),
+      url("../assets/fonts/#{$file_name}.ttf") format("ttf");
+    font-family: $font_name;
+    font-weight: #{$weight};
+    font-style: #{$style};
+    font-display: swap;
+  }
+}
