@@ -1,24 +1,27 @@
 # devTools (2.0.2)
-gulp assembly for automating the layout of web pages.
-> Gulp 4 is used
-
-## Install
-To work with this assembly in a new project, include the entire contents of the `git clone <tis repo>` repository.
-Then, while in the root of the project, run the `npm i` command, which will install all dependencies located in <package.json>.
-
+Gulp-сборка для автоматизации верстки веб-страниц.
+> Используется связка gulp4 + scss +
 
 ## Применение
+Данная сборка создавалась для спользования в редакторе <vs-code> с использованием некотоых плагинов для него: Live Server, Stylelint, HTMLHint, ESLint, Path Autocomplete
 
+<!-- Предварительные условия
+Что нужно для установки ПО, инструкции по установке дополнительных компонентов. -->
 
+## Установка
+- склонируйте все содержимое репозитория `git clone <this repo>`
+- запустите команду `npm i`, для установки зависимостей.
 
+## Доступные команды
 
-## Contributing
-PRs accepted.
+## Структура папок и файлов
 
 ## Author
-### Victor A.Babikov  <vb@vb-h.ru>
+Victor A.Babikov  <vb@vb-h.ru>
 
+## Благодарности
+Благодарность тем, чей код был использован в проекте
+Благодарности за вдохновение и мотивацию
 
-## License
-Copyright © 2020, Victor A.Babikov. Released under the MIT License.
-
+## Лицензия
+Этот проект лицензируется в соответствии с лицензией MIT — подробности см. в файле LICENSE.md.
